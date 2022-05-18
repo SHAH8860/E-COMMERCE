@@ -1,0 +1,57 @@
+<app-header></app-header>
+
+<body>
+    
+    <div class="container">
+        <div class="formWraper">
+    
+            <!-- Left section of responsive registration form -->
+    
+            <div class="formDiv">
+                <h2>Create Account</h2>
+                <p class="text"> Sign Up with Social Media</p>
+    
+                <!-- Font Awesome Icons -->
+                <div class="socialBtn">
+                    <div class="facebook icon"><i class="fab fa-facebook-f"></i></div>
+                    <div class="twitter icon"><i class="fab fa-twitter"></i></div>
+                    <div class="instagram icon"><i class="fab fa-instagram"></i></div>
+                </div>
+    
+                <!--Horizontal Line-->
+                <hr>
+                <div class="orDiv">Or</div>
+    
+                <p class="text">Sign IN with Email Address</p>
+                <form autocomplete="off" [formGroup]="profileForm" (ngSubmit)="Submit()" >
+                    <div class="formGroup">
+                        <i class="far fa-envelope"></i>
+                        <div><input type="email" name="email" id="email" placeholder="Enter Email" formControlName="email"></div>
+                        <span *ngIf="email && email.invalid && email.touched">This field is invalid</span>
+                    </div>
+                    <div class="formGroup">
+                        <i class="fas fa-lock"></i>
+                        <div><input type="password" name="password" id="password" placeholder="Enter Password"
+                            formControlName="password"></div>
+                            <span *ngIf="password && password.invalid && password.touched">This field is invalid</span>
+                    </div>
+                    <div class="checkBox">
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <span class="text">I Agree with Term & Conditions.</span>
+                    </div>
+                    <button type="submit" class="btn" >SIGN IN</button>
+                </form>
+            </div>
+    
+            <!-- Right section of responsive registration form -->
+            <div class="welcomeDiv">
+                <h2>Welcome Back!</h2>
+                <p class="text">An inch of time is an inch of gold, but you can’t buy that inch of time with an inch of gold
+                </p>
+                <button class="btn2" routerLink="/register">SIGN UP</button>
+            </div>
+        </div>
+    
+    
+    </div>
+</body>

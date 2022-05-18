@@ -1,0 +1,39 @@
+<app-header></app-header>
+<body>
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <video src="../../../assets/img/rolex-cosmograph-daytona_FeXwQ1DF.mp4" type="video/mp4" control autoplay="" playsinline="" loop="" preload="auto" class="sc-fzoJus bPIkEp"></video>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>DATEJUST</h5>
+          <p>THE CLASSIC WATCH OF REFERENCE</p>
+        </div>
+      </div>
+    </div>
+      
+      
+  </div>
+
+  <div>
+    <h1 class="product "><strong>Watches</strong></h1>
+    <hr>
+  </div>
+ 
+  
+  <div class="container">
+    <ng-container *ngFor="let val of productlist ">
+      <div class="card" style="width: 18rem;">
+        <img src={{val.img}} class="card-img-top" alt="...">
+        <div class="card-body">
+          <a [routerLink]="['/detail',val.title,val.price,val.img,val.des]"><h5 class="card-title">{{val.title}}</h5></a>
+          <p class="card-text ">{{val.des}}</p>
+          <p class="card-text ">{{val.price|currency:'INR'}}</p>
+          <button class="btn btn-info w-100 mb-2" (click)="addProduct(val)" >Add To Cart</button>
+          
+        </div>
+      </div>
+    </ng-container>
+  
+  </div>
+</body>
+<app-footer></app-footer>

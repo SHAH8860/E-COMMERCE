@@ -1,0 +1,25 @@
+.footer{
+    background-color: rgb(26, 25, 25);
+    color: whitesmoke;
+    border-bottom: 0px;
+    min-height: 100px;
+}
+#button-addon1 {
+    color: #ffc371;
+    
+  }
+  
+  i {
+    color: #ffc371;
+  }
+  
+  .form-control::placeholder {
+    font-size: 0.95rem;
+    color: #aaa;
+    font-style: italic;
+  }
+  
+  .form-control.shadow-0:focus {
+    box-shadow: none;
+  }
+ 
