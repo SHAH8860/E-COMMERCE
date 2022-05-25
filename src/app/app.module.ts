@@ -21,6 +21,10 @@ import { ProductDetailComponent } from './components/product-detail/product-deta
 import { AuthGuard } from './guard/auth.guard';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { HomepageComponent } from './components/homepage/homepage.component';
+import { AdminComponent } from './components/admin/admin.component';
+import { AdminloginComponent } from './components/adminlogin/adminlogin.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ToastrModule } from 'ngx-toastr';
 
 
 
@@ -36,6 +40,8 @@ import { HomepageComponent } from './components/homepage/homepage.component';
     LayoutComponent,
     ProductDetailComponent,
     HomepageComponent,
+    AdminComponent,
+    AdminloginComponent,
    
   ],
   imports: [
@@ -44,7 +50,9 @@ import { HomepageComponent } from './components/homepage/homepage.component';
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFirestoreModule,
     AngularFireDatabaseModule,
+    BrowserAnimationsModule,
     ReactiveFormsModule,
+    ToastrModule.forRoot(),
     FormsModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production,
@@ -52,6 +60,7 @@ import { HomepageComponent } from './components/homepage/homepage.component';
       // or after 30 seconds (whichever comes first).
       registrationStrategy: 'registerWhenStable:30000'
     })
+    
   ],
   providers: [FirebaseService,AuthguardService,AuthGuard],
   bootstrap: [AppComponent]

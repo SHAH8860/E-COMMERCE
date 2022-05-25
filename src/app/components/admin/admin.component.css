@@ -1,0 +1,30 @@
+.form-control {
+    border-radius: 50px;
+    width: 400px;
+    margin-left: 10px;
+}
+.search{
+    position: absolute;
+    z-index: 10;
+    margin-left: 23rem;
+    color: aqua;
+    
+}
+.navbar-brand{
+   height: 3rem;
+   width: 5rem;
+   margin-left: 6rem;
+ }
+
+ table, th, td {
+    
+  text-align: center;
+  border-style: inset;
+  border: 1px solid black;
+  border-collapse: collapse;
+  
+}
+th, td {
+  padding: 15px;
+}
+ 
