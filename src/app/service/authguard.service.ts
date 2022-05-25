@@ -51,9 +51,8 @@ export class AuthguardService {
     this.postcollection.add(payload)
     
   }
-  UpdatePost(payload:any):any{
-    delete payload.id
-    this.firebase.doc('detail/'+payload.id).update(payload);
+  UpdatePost(payloadID:any,payload:any):any{
+    this.firebase.doc('detail/'+payloadID).update(payload)
 
   }
  

@@ -21,8 +21,8 @@ export  interface Data{
 export class AdminComponent implements OnInit {
   profileForm: FormGroup | any;
   productitem: Data[] = []
-  value:string='ADD'
   state:boolean=false
+  id:string=''
 
   constructor(private fb: FormBuilder, private auth: AuthguardService,private toastr:ToastrService) { }
 
@@ -69,24 +69,26 @@ export class AdminComponent implements OnInit {
 
   deleteItem(payload: any) {this.auth.deletePost(payload)
     this.toastr.info("Product deleted Successfully")}
+
+
   populate(val:any){
     this.state=true
-    this.value='UPDATE'
     this.profileForm.get("title")?.setValue(val.title);
     this.profileForm.get("des")?.setValue(val.des);
     this.profileForm.get("price")?.setValue(val.price);
+    this.id=val.id
   }
-  Update(postdata:Data):void{
-    // const paylod={
-    //   title:postdata.value.title,
-    //   des:postdata.value.des,
-    //   price:postdata.value.price,
-    // }
-    this.auth.UpdatePost(postdata)
+  Update(){
+    const paylod={
+      title: this.profileForm.value.title,
+      des: this.profileForm.value.des,
+      price: this.profileForm.value.price,
+      
+    }
+    console.log(this.profileForm.value.title)
+    this.auth.UpdatePost(this.id,paylod)
     this.profileForm.reset()
-    this.value='Add'
     this.state=false;
-    this.profileForm.reset()
 }
 close(){
   this.profileForm.reset()

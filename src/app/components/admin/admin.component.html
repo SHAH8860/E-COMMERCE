@@ -33,7 +33,7 @@
                 <h5 class="modal-title" id="staticBackdropLabel">Product</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form [formGroup]="profileForm" (ngSubmit)="state? Update(profileForm):Submit()" autocomplete="off">
+            <form [formGroup]="profileForm" (ngSubmit)="Submit()" autocomplete="off">
                 <div class="modal-body">
 
                     <div class="mb-3">
@@ -60,7 +60,8 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" (click)="close()">Close</button>
-                    <button type="submit" class="btn btn-primary">{{value}}</button>
+                    <button type="submit" class="btn btn-primary">Add</button>
+                    <button type="button" (click)="Update()" *ngIf="state" class="btn btn-primary">UPDATE</button>
                 </div>
             </form>
         </div>
