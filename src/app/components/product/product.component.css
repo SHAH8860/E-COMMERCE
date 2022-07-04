@@ -95,4 +95,10 @@ a{
 button:hover{
     box-shadow: 5px 5px rgb(95, 112, 131);
 }
+.card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
