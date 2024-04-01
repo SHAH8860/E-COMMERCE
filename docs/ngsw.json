@@ -1,0 +1,143 @@
+{
+  "configVersion": 1,
+  "timestamp": 1711961227035,
+  "index": "https://github.com/SHAH8860/E-COMMERCE.git/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://github.com/SHAH8860/E-COMMERCE.git/favicon.ico",
+        "https://github.com/SHAH8860/E-COMMERCE.git/index.html",
+        "https://github.com/SHAH8860/E-COMMERCE.git/main.6b069a989f0baf66.js",
+        "https://github.com/SHAH8860/E-COMMERCE.git/manifest.webmanifest",
+        "https://github.com/SHAH8860/E-COMMERCE.git/polyfills.95591e98dd457362.js",
+        "https://github.com/SHAH8860/E-COMMERCE.git/runtime.d55c3ce5128ef515.js",
+        "https://github.com/SHAH8860/E-COMMERCE.git/styles.5d4f7fd131e74fad.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/icons/icon-128x128.png",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/icons/icon-144x144.png",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/icons/icon-152x152.png",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/icons/icon-192x192.png",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/icons/icon-384x384.png",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/icons/icon-512x512.png",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/icons/icon-72x72.png",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/icons/icon-96x96.png",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/IMG30.webp",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/IMG31.jpg",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/IMG32.webp",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/IMG34.webp",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/RX041-2.jpg",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/back.jpg",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/bg-01.jpg",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/icon.png",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/img 3.jpg",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/img1.jpg",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/img10.webp",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/img11.webp",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/img12.webp",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/img2.jpg",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/img20.webp",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/img4.jpg",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/img40.jpg",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/img41.jpg",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/img5.webp",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/img6.webp",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/img7.webp",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/img8.webp",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/img9.webp",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/ing42.jpg",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/loginbg.jpg",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/pexels-pixabay-277319.jpg",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/r2.webp",
+        "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/rolex-cosmograph-daytona_FeXwQ1DF.mp4",
+        "https://github.com/SHAH8860/E-COMMERCE.git/bg-01.84507914c9cc2abb.jpg",
+        "https://github.com/SHAH8860/E-COMMERCE.git/loginbg.38263e7539f9d676.jpg",
+        "https://github.com/SHAH8860/E-COMMERCE.git/pexels-pixabay-277319.83ef5b56e12d4f19.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/IMG30.webp": "20ccbac301abfa2d55c406c62bd1b3898148363b",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/IMG31.jpg": "0c71d48aff1de739b43622b3bfe01e0e333029b1",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/IMG32.webp": "7b6e907219d756ea184a5c269251726c7b21bf6c",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/IMG34.webp": "356880c1c6909d62dea1758d6d6312db4de33e79",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/RX041-2.jpg": "19496b22f653b143ab2f3ca03cede20ba603119e",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/back.jpg": "25b22bcee801f2c5cea35d4e0856af8c26d0fc5b",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/bg-01.jpg": "4755fbd4a213feb5b4965e32e94f6ba627591f73",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/icon.png": "4754ea5eb3e19efab85814da90867ae8f8018a8e",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/img 3.jpg": "a9d0f21ceb9bb385db271fe910f3aeecb77ced1d",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/img1.jpg": "248d6195290d271d461c4548872c7d77c90697c6",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/img10.webp": "b32ebc5360edd338851760f798e18a412bdf18d5",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/img11.webp": "eb7955670104aaa1ae8afea28d7443235d8ed68e",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/img12.webp": "7902458a287ee4ff28f51ca2960e8b9c78bb7abc",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/img2.jpg": "297406ef6b9a47e59300ad39c80602f05c381eca",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/img20.webp": "cfb2439e96312665e8e278e77287416f962d0f85",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/img4.jpg": "4c32bf4bc58754cf931fa2b570cdda46bb695880",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/img40.jpg": "807f000d495101ee301766912cd320d63f4df246",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/img41.jpg": "05daaf5b8f273164f9a15839687c20b8d0913b1f",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/img5.webp": "412a38fda9a6d6dff5ce6ce1929ad46613f4e2f7",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/img6.webp": "fbd8b48bb3a3369a4b25364d70e4a2fccc92b54b",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/img7.webp": "9fbc79a0540363613e09cf9c80406e873d2b6c44",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/img8.webp": "2d8596cf6b4db323ba56eabc40bfb6baa9cf140e",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/img9.webp": "3492f0cbb59fd5bab70c3d5bc11add5f5dbc6be6",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/ing42.jpg": "338183c48741097b223b3ff78ced2aff5e09b73e",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/loginbg.jpg": "bb19caf8d227f96b477d2d721d708bb6788f6fd2",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/pexels-pixabay-277319.jpg": "738f16f8b16033f5c148b4bf40e3ba9ffdc7524c",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/r2.webp": "33e708ad4696fd418f2702ab48695c35885445ec",
+    "https://github.com/SHAH8860/E-COMMERCE.git/assets/img/rolex-cosmograph-daytona_FeXwQ1DF.mp4": "b94ad7532cb2cf96a2aa947150a65c271b224ddf",
+    "https://github.com/SHAH8860/E-COMMERCE.git/bg-01.84507914c9cc2abb.jpg": "4755fbd4a213feb5b4965e32e94f6ba627591f73",
+    "https://github.com/SHAH8860/E-COMMERCE.git/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://github.com/SHAH8860/E-COMMERCE.git/index.html": "ee6f2f0e1df83e1a9413adb1195813e4ff0c344c",
+    "https://github.com/SHAH8860/E-COMMERCE.git/loginbg.38263e7539f9d676.jpg": "bb19caf8d227f96b477d2d721d708bb6788f6fd2",
+    "https://github.com/SHAH8860/E-COMMERCE.git/main.6b069a989f0baf66.js": "7899405656189d42cddaed0036061646b341d1d7",
+    "https://github.com/SHAH8860/E-COMMERCE.git/manifest.webmanifest": "4b43912784b46c586c77286f961b5b6a4ac5c46d",
+    "https://github.com/SHAH8860/E-COMMERCE.git/pexels-pixabay-277319.83ef5b56e12d4f19.jpg": "738f16f8b16033f5c148b4bf40e3ba9ffdc7524c",
+    "https://github.com/SHAH8860/E-COMMERCE.git/polyfills.95591e98dd457362.js": "96164e191f140680538b5eec70d545056f2c7a84",
+    "https://github.com/SHAH8860/E-COMMERCE.git/runtime.d55c3ce5128ef515.js": "c137f8b363c5c96378b426abe2a6d81b7f24b881",
+    "https://github.com/SHAH8860/E-COMMERCE.git/styles.5d4f7fd131e74fad.css": "e575ea59a211e99b5d057764bdef60eca6b7937a"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
