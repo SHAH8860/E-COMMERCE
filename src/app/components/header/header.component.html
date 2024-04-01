@@ -5,14 +5,6 @@
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-light" routerLink="/home">Product</a>
-      </li>
-    </ul>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
@@ -31,9 +23,9 @@
 
       <div *ngIf="user">
         <div class="dropdown me-5">
-         
+
           <h5 class="text-light"><strong>{{user.displayName}}</strong></h5>
-         
+
           <div class="dropdown-content">
             <button class="btn btn-danger"(click)="logout()">Logout</button>
 
@@ -43,7 +35,7 @@
 
       <div class="sin me-2" *ngIf="!user">
         <button class="btn btn-dark"><a routerLink="/login">Login</a> </button>
-        
+
       </div>
 
 

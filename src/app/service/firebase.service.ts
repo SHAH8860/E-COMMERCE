@@ -19,12 +19,12 @@ export  interface Data{
 })
 export class FirebaseService {
   user=new BehaviorSubject<any>(null);
-  
-  
+
+
   postcollection: AngularFirestoreCollection<Data> | any;
   posts: Observable<Data[]> | any;
   documentref:AngularFirestoreDocument<Data>|any;
-  
+
 
 
   constructor(private auth:AngularFireAuth,private router:Router,private firebase:AngularFirestore) {
@@ -45,14 +45,14 @@ export class FirebaseService {
   }
   createProduct(payload:any):any{
     this.postcollection.add(payload)
-    
+
   }
- 
-  
+
+
   login(email:string,password:string){
     this.auth.signInWithEmailAndPassword(email,password).then(()=>{
       localStorage.setItem('token','true')
-      this.router.navigate(['layout'])
+      this.router.navigate(['/home'])
     },err=>{
       alert("Something went wrong")
     })
@@ -60,20 +60,20 @@ export class FirebaseService {
   deletePost(payload:any):any{
     this.documentref=this.firebase.doc('data/'+payload.id);
     this.documentref.delete()
-    
-    
+
+
   }
-  
+
   register(email:string,password:string,username:string){
     this.auth.createUserWithEmailAndPassword(email,password).then((res)=>{
       res.user?.updateProfile({displayName:username})
       alert('Register Success')
-      this.router.navigate(['/layout'])
+      this.router.navigate(['/home'])
 
     },err=>{
       alert("Something went wrong")
     })
   }
-  
+
 
 }
